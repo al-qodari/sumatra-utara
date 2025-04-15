@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sumatera Utara - Kekayaan Budaya</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Merriweather', serif;
+      background: linear-gradient(to bottom, #fffefb, #ffe6d0);
+      color: #3a2e25;
+    }
+
+    header {
+      background: linear-gradient(120deg, #6e260e, #9c3300);
+      color: #fff8e7;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.3em;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(50px) scale(0.97);
+      transition: all 1s ease-out;
+    }
+
+    section.show {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    h2 {
+      font-size: 2.2em;
+      color: #812e00;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.15em;
+      line-height: 1.8;
+      text-align: justify;
+      padding: 0 10px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 650px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      margin: 25px auto;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    img:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      background-color: #6e260e;
+      color: #fbe8d3;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 1em;
+      margin-top: 60px;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* Parallax effect on scroll (subtle) */
+    .parallax {
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sumatera Utara</h1>
+    <p>Menelusuri Kekayaan Budaya dan Alam Nusantara</p>
+  </header>
+
+  <section class="fade">
+    <h2>Rumah Adat Bolon</h2>
+    <img src="https://1.bp.blogspot.com/-9v_ylrTKhbU/Xnm_FN9UaXI/AAAAAAAB_ic/ZGcbumGxiEg8yuDyLpgfgLfUAJGA6oqRwCLcBGAsYHQ/s640/rumah-bolon-sumatera-utara.jpg" alt="Rumah Adat Bolon">
+    <p>Rumah Bolon adalah simbol arsitektur khas suku Batak. Rumah ini tidak hanya unik dari segi bentuknya yang menjulang dengan atap runcing, tapi juga menyimpan nilai-nilai adat yang luhur. Di masa lalu, rumah Bolon hanya ditempati oleh keluarga bangsawan Batak dan menjadi pusat kegiatan adat dan spiritual.</p>
+  </section>
+
+  <section class="fade">
+    <h2>Pakaian Adat Ulos</h2>
+    <img src="https://infokost.id/blog/wp-content/uploads/2023/10/Nama-Pakaian-Adat-Sumatera-Utara.webp" alt="Pakaian Adat Ulos">
+    <p>Ulos adalah kain tenun tradisional yang diwariskan secara turun-temurun. Setiap corak dan warna dalam ulos memiliki makna tersendiri, seperti keberanian, kesetiaan, dan doa restu. Dalam upacara adat, ulos diberikan sebagai simbol cinta dan berkat kepada sesama.</p>
+  </section>
+
+  <section class="fade">
+    <h2>Senjata Tradisional - Piso Gaja Dompak</h2>
+    <img src="https://1.bp.blogspot.com/-7PplQfsrXbE/V6PsHHMamBI/AAAAAAAAC0E/5M8uN6awMzcV0icwwLCuXhxmWq46r4I-ACLcB/s1600/piso+gaja+dompak.jpg" alt="Senjata Tradisional Batak">
+    <p>Piso Gaja Dompak adalah senjata khas dengan bentuk melengkung dan ukiran kepala gajah. Selain sebagai alat pertahanan, senjata ini juga menjadi simbol kekuasaan para raja Batak. Nilai artistiknya menjadikan Piso Gaja Dompak sebagai benda pusaka berharga.</p>
+  </section>
+
+  <section class="fade">
+    <h2>Keindahan Alam - Danau Toba</h2>
+    <img src="https://tse3.mm.bing.net/th?id=OIP.M1mQR8Qhm1XvYWdimSKqlAHaDz&pid=Api&P=0&h=180" alt="Danau Toba">
+    <p>Danau Toba tidak hanya menjadi danau vulkanik terbesar di Asia Tenggara, tetapi juga menyimpan cerita asal mula suku Batak. Pulau Samosir yang berada di tengah danau menjadi tempat penting bagi budaya dan tradisi Batak yang masih hidup hingga kini.</p>
+  </section>
+
+  <section class="fade">
+    <h2>Air Terjun Sipiso-Piso</h2>
+    <img src="https://cdn.idntimes.com/content-images/community/2024/05/snapinstaapp-28153571-149060389100214-5848960448799440896-n-1080-d131dd315e27e22e05c0379d2db82cca.jpg" alt="Air Terjun Sipiso-Piso">
+    <p>Sipiso-Piso adalah air terjun megah yang mengalir dari celah tebing tinggi. Dikelilingi pegunungan hijau dan menghadap langsung ke Danau Toba, keindahan alam di sekitarnya menjadikannya sebagai destinasi wisata unggulan Sumatera Utara.</p>
+  </section>
+
+  <section class="fade">
+    <h2>Alat Musik Tradisional - Gondang</h2>
+    <img src="https://helloindonesia.id/wp-content/uploads/2019/01/full_e0a949bac3adc6ff980ea268c3d139025bc8c4b6.jpg" alt="Gondang Batak">
+    <p>Gondang terdiri dari seperangkat gendang dan alat tiup khas. Dalam setiap dentingan dan irama gondang, terdapat makna doa, ajakan, dan penghubung spiritual antara manusia dan leluhur. Musik ini digunakan untuk upacara adat dan tarian Batak yang sarat makna.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sumatera Utara - Cinta Budaya Nusantara</p>
+  </footer>
+
+  <script>
+    // Animasi saat scroll
+    window.addEventListener('scroll', () => {
+      document.querySelectorAll('.fade').forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) {
+          el.classList.add('show');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
